@@ -6,7 +6,7 @@ function callback(data){
     console.log(rateX)
     const dropdown = document.querySelector('select#currency-types')
     const form = document.querySelector('form')
-    const input = document.querySelector('input#fname')
+    const input = document.querySelector('#usd-placeholder')
     const h1 = document.querySelector('h1#return-currency')
     Object.entries(rateX).forEach(data => {
         console.log(data)
