@@ -6,9 +6,33 @@
     <title>Currancy Converter 3000</title>
     <script defer src="project.js"></script>
     <link rel="stylesheet" href="./tailwind/output.css">
-</head>
-<body>
-
-
+  </head>
+<body class="bg-slate-300">
+    <h1>Currency Converter</h1>
+ 
+    <div class="pt-8 h-screen flex-col justify-around items-center">
+        <div class="py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex md:items-center sm:space-y-0 sm:space-x-6">
+            <h1>USD Converter</h3>
+            <form class="" action="/action_page.php">
+            <label for="fname">Currency:</label><br>
+            <input class="px-4 py-1 text-sm text-blue-600 font-semibold rounded-full border border-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2" type="text" id="fname" name="fname" placeholder="USD"> <form>
+                <select class="px-4 py-1 text-sm text-blue-600 font-semibold rounded-full border border-blue-200 hover:text-white hover:bg-blue-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2" id="currency-types" name="currency-types">
+                    <option value="CAD">CAD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="Pound">Pound</option>
+                </select>  <input type="submit" id="submit" value="Submit" class="px-4 py-1 text-sm text-blue-600 font-semibold rounded-full border border-blue-200 hover:text-white hover:bg-blue-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2">
+            </form>
+        </div> 
+    <div id="test" class="flex-col items-center">
+        <div class="">
+            <div class="flex-col w-64 h-32 m-auto mt-8 py-8 px-8 bg-white rounded-xl shadow-lg">
+                <div>
+                    <div>
+                        <h1 id="return-currency">Return Currency:</h1>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
 </body>
 </html> 
